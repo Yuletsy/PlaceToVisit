@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+}
+.contenedor{
+    padding: 60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(73, 50, 64, 0.575), rgba(255, 0, 153, 0.548)), url("./img/travel.jpg"  );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(73, 50, 64, 0.575), rgba(255, 0, 153, 0.548)), url("./img/travel.jpg"  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px ;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.textos-header h1{
+    font-size: 60px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+/*porque viajar*/
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly; 
+    border-radius: 50%;
+    
+}
+.contenedor-sobre-nosotros img{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  
+}
+.imagen-about-greece{
+    width: 48%;
+    text-align: right;
+    margin-left: 100%;
+    border-radius: 50%;
+
+}
+.imagen-about-thailand{
+    width: 48%;
+    text-align: left;
+    border-radius: 50%;
+}
+.imagen-about-Norway{
+    width: 48%;
+    text-align: right;
+    border-radius: 50%; 
+}
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #f0f;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5 );
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+/*galeria*/
+.portafolio{
+    background: #f2f2f2;
+}
+.galeria-port{
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+  
+
+}
+/*.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.hover-galeria{
+    padding: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+}*/
+/*amigos*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    width:46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+.cards .card > .contenido-textos-card{
+width: 60%;
+color: #fff;
+}
+.cards .card > .contenido-textos-card p{
+    font-weight: 300;
+    padding-top: 5px;
+    color: #fff;
+}
+.contenedor-footer{
+    border: none;
+}
+.content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.content-foo h4{
+    border-bottom: 0px none;
+    
+}
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+.titulo-final{
+    font-size: 20px;
+    text-align: center;
+}
